@@ -63,7 +63,7 @@ class Predictor(BasePredictor):
             ),
             negative_mask_prompt: str = Input(
                 description="Negative mask prompt",
-                default="pants",
+                default="",
             ),
             adjustment_factor: int = Input(
                 description="Mask Adjustment Factor (-ve for erosion, +ve for dilation)",
